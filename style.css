@@ -20,7 +20,7 @@ header{
     color: rgb(0, 162, 255);
     text-shadow: 2px 2px 0px black;
     font-size: 4em;
-    text-align: center;
+    padding-left: 42%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1%;   
 }
