@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1366px;
+    background: linear-gradient(rgb(0, 69, 116),rgba(0, 33, 218, 0.801));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97.8vh;
+}
+
+header{
+    width: 100%;
+}
+
+.name{
+    color: rgb(0, 162, 255);
+    text-shadow: 2px 2px 0px black;
+    font-size: 4em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1%;   
+}
+
+.photoandtext{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo img{
+    border-radius: 50% 50%;
+    border: 3px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 250px;
+}
+
+.mern{
+    padding: 2% 6%;
+    background-color: black;
+    font-size: 4rem;
+    color: white;
+    margin-top:4%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50% 50%;
+    height: 20vh;
+}
+
+.main{
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 1%; 
+    text-align: center;
+    padding: 4% 2% 1% 2%;
+    background : radial-gradient(rgb(0, 119, 255),blue);
+    color: white;
+    font-size:1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+}
+
+.box:hover{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background: black;
+    transition: 400ms;
+}
+
+
+
